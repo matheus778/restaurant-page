@@ -46,7 +46,6 @@ header .content .menu {
   padding: 1rem;
   text-decoration: none;
   color: #566965;
-  position: relative;
   transition: 500ms;
 }
 
@@ -60,3 +59,70 @@ header .content .menu {
   color: #ba2d2d;
   font-weight: 700;
 } 
+
+.banner{
+  background-image: url('../images/food-bg.jpg');
+  width: 100%;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.bg {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.781);
+}
+
+.banner .bg .content {
+  height: 100%;
+}
+
+.text {
+  background-color: #ba2d2d;
+  height: 100%;
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.text h1 {
+  font-size: 2.8rem;
+  color: rgb(190, 190, 190);
+  text-shadow: #566965;
+}
+
+.text p {
+  line-height: 120%;
+  color: white;
+  font-size: 1.8rem;
+}
+
+.text .btn {
+  max-width: 300px;
+  width: 100%;
+  background-color: #ba2d2d;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: white;
+  border: 5px solid white;
+  font-size: 2rem;
+}
+
+.text .btn:hover{
+  background-color: white;
+  color: #ba2d2d;
+}
+
+.test {
+  min-height: 100vh;
+}
