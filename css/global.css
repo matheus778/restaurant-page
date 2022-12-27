@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Caramel&family=Ubuntu:wght@700&display=swap');
+/* 
+font-family: 'Caramel', cursive;
+font-family: 'Ubuntu', sans-serif;
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  height: 100vh;
+  background-color: #ede3fb;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Caramel', cursive;
+}
+
+.container {
+  width: 100%;
+}
+
+.content {
+  width: 90%;
+  max-width: 1250px;
+  margin: 0 auto;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
