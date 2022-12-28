@@ -63,7 +63,7 @@ header .content .menu {
 .banner{
   background-image: url('../images/food-bg.jpg');
   width: 100%;
-  height: 400px;
+  height: max-content;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -80,6 +80,7 @@ header .content .menu {
 }
 
 .text {
+  padding: 2rem 0;
   background-color: #ba2d2d;
   height: 100%;
   width: 100%;
@@ -99,12 +100,12 @@ header .content .menu {
 }
 
 .text p {
-  line-height: 120%;
+  line-height: 150%;
   color: white;
   font-size: 1.8rem;
 }
 
-.text .btn {
+.btn {
   max-width: 300px;
   width: 100%;
   background-color: #ba2d2d;
@@ -118,11 +119,65 @@ header .content .menu {
   font-size: 2rem;
 }
 
-.text .btn:hover{
+ .btn:hover{
   background-color: white;
   color: #ba2d2d;
 }
 
 .test {
   min-height: 100vh;
+}
+
+.products .content {
+  padding-top: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  gap: 2rem;
+}
+
+.card-product {
+  background-color: white;
+  width: 400px;
+  box-shadow: 2px 2px 4px rgb(70, 69, 69);
+}
+
+.card-product img {
+  width: 100%;
+  max-width: 400px;
+}
+
+.card-product .desc {
+  padding: 2rem 0;
+  padding-left: 2rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.card-product h2 {
+  font-size: 2rem;
+}
+
+.card-product p {
+  line-height: 150%;
+  font-size: 1.8rem;
+  min-height: 120px;
+}
+
+.card-product .btn {
+  color: #ba2d2d;
+  background-color: white;
+  border: 5px solid #ba2d2d;
+}
+
+.card-product .btn:hover{
+  background-color: #ba2d2d;
+  color: white;
+}
+
+.card-product span {
+  font-size: 2rem;
+  color: #ba2d2d;
 }
