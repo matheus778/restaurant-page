@@ -147,8 +147,8 @@ header .content .menu {
 }
 
 .card-product .desc {
-  padding: 2rem 0;
-  padding-left: 2rem;
+  padding: 2rem;
+  /* padding-left: 2rem; */
 
   display: flex;
   flex-direction: column;
@@ -307,4 +307,49 @@ footer .content .logo, .socials {
 
 .socials .icon:hover {
   opacity: 0.4;
+}
+
+@media (max-width:1340px) {
+  .products .content {
+    padding-top: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 2rem;
+  }
+
+  .card-product img {
+    width: 100%;
+    max-width: unset;
+  }
+}
+
+@media(max-width:1000px) {
+  .products .content {
+    padding-top: 2rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: 2rem;
+  }
+
+  .card-product {
+    /* align-self: center; */
+  }
+
+  .contact .content, .about-us .content {
+   flex-wrap: wrap-reverse;
+  }
+
+  .about-us .content {
+    padding: 0rem;
+  }
+
+  .about-us-text{
+    padding: 2rem;
+  }
+
+  .contact .content {
+    padding: 2rem;
+  }
 }
